@@ -1,0 +1,42 @@
+{
+  "name": "@hywax/tools",
+  "private": true,
+  "packageManager": "pnpm@9.12.1",
+  "description": "Toolchain for developing projects",
+  "license": "MIT",
+  "homepage": "https://github.com/hywax/tools",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hywax/tools.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hywax/tools/issues"
+  },
+  "scripts": {
+    "build": "pnpm -r --parallel run build",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "prepare": "husky",
+    "release": "tsx scripts/release.ts",
+    "clean": "find . \\( -name \"dist\" -o -name \"node_modules\" \\) -type d -prune -exec rm -rf '{}' +"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.5.0",
+    "@commitlint/config-conventional": "^19.5.0",
+    "@hywax/tools-eslint": "workspace:*",
+    "@types/node": "^22.7.5",
+    "@vitejs/release-scripts": "^1.3.2",
+    "execa": "^9.4.0",
+    "husky": "^9.1.6",
+    "lint-staged": "^15.2.10",
+    "tsx": "^4.19.1"
+  },
+  "lint-staged": {
+    "*.ts": "eslint ."
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  }
+}
