@@ -31,6 +31,11 @@
     "lint-staged": "^15.2.10",
     "tsx": "^4.19.1"
   },
+  "pnpm": {
+    "overrides": {
+      "@hywax/tools-eslint": "workspace:*"
+    }
+  },
   "lint-staged": {
     "*.ts": "eslint ."
   },
