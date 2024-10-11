@@ -1,0 +1,52 @@
+{
+  "name": "@hywax/tools-eslint",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Eslint configuration",
+  "author": {
+    "name": "hywax",
+    "email": "me@hywax.space"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/hywax/tools",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hywax/tools.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hywax/tools/issues"
+  },
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.mts",
+        "default": "./dist/index.mjs"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "unbuild",
+    "dev": "unbuild --stub"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "eslint": "^9.12.0"
+  },
+  "dependencies": {
+    "@antfu/eslint-config": "^3.7.3",
+    "eslint": "^9.12.0"
+  },
+  "devDependencies": {
+    "@hywax/tools-tsconfig": "workspace:*",
+    "unbuild": "^2.0.0"
+  }
+}
