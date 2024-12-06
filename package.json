@@ -1,7 +1,7 @@
 {
   "name": "@hywax/tools",
   "private": true,
-  "packageManager": "pnpm@9.14.4",
+  "packageManager": "pnpm@9.15.0",
   "description": "Toolchain for developing projects",
   "license": "MIT",
   "homepage": "https://github.com/hywax/tools",
