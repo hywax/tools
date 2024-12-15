@@ -21,7 +21,7 @@
     "clean": "find . \\( -name \"dist\" -o -name \"node_modules\" \\) -type d -prune -exec rm -rf '{}' +"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.6.0",
+    "@commitlint/cli": "^19.6.1",
     "@commitlint/config-conventional": "^19.6.0",
     "@hywax/tools-eslint": "workspace:*",
     "@types/node": "^22.10.2",
