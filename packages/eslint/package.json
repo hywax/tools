@@ -42,11 +42,11 @@
     "eslint": "^9.18.0"
   },
   "dependencies": {
-    "@antfu/eslint-config": "^3.13.0",
+    "@antfu/eslint-config": "^3.14.0",
     "eslint": "^9.18.0"
   },
   "devDependencies": {
     "@hywax/tools-tsconfig": "workspace:*",
-    "unbuild": "^3.2.0"
+    "unbuild": "^3.3.1"
   }
 }
