@@ -47,6 +47,6 @@
   },
   "devDependencies": {
     "@hywax/tools-tsconfig": "workspace:*",
-    "unbuild": "^3.3.1"
+    "unbuild": "^3.5.0"
   }
 }
