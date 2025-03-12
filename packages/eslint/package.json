@@ -42,7 +42,7 @@
     "eslint": "^9.22.0"
   },
   "dependencies": {
-    "@antfu/eslint-config": "^3.16.0",
+    "@antfu/eslint-config": "^4.10.1",
     "eslint": "^9.22.0"
   },
   "devDependencies": {
