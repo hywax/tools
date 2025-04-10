@@ -24,8 +24,8 @@ importers:
         specifier: ^22.14.0
         version: 22.14.0
       '@vitejs/release-scripts':
-        specifier: ^1.4.0
-        version: 1.4.0
+        specifier: ^1.5.0
+        version: 1.5.0
       execa:
         specifier: ^9.5.2
         version: 9.5.2
@@ -901,8 +901,8 @@ packages:
     resolution: {integrity: sha512-BkLMNpdV6prozk8LlyK/SOoWLmUFi+ZD+pcqti9ILCbVvHGk1ui1g4jJOc2WDLaeExz2qWwojxlPce5PljcT3w==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@vitejs/release-scripts@1.4.0':
-    resolution: {integrity: sha512-NpPniB3UxEsWf9fX8SlZA96vv3tqkd9IFW23pBHVylAW18BsV8J9f/iukbvilCU+nyhtCQ9xsf7K/7p2wSro3Q==}
+  '@vitejs/release-scripts@1.5.0':
+    resolution: {integrity: sha512-rZQdM5AneNJHzDOTUaQOOifauH6MkGTSI+GH8bKKrimBaa5BtvpnE1iz43fJ4QDO7RdGxAlxWnPQAVlFhGM1cQ==}
 
   '@vitest/eslint-plugin@1.1.25':
     resolution: {integrity: sha512-u8DpDnMbPcqBmJOB4PeEtn6q7vKmLVTLFMpzoxSAo0hjYdl4iYSHRleqwPQo0ywc7UV0S6RKIahYRQ3BnZdMVw==}
@@ -3577,7 +3577,7 @@ snapshots:
       '@typescript-eslint/types': 8.21.0
       eslint-visitor-keys: 4.2.0
 
-  '@vitejs/release-scripts@1.4.0':
+  '@vitejs/release-scripts@1.5.0':
     dependencies:
       execa: 8.0.1
       mri: 1.2.0
